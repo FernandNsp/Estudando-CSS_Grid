@@ -110,3 +110,9 @@
 .conteudo__coluna .conteudo__coluna-texto + .conteudo__coluna-texto{
 	margin-top: 3rem;
 }
+
+@media screen and (max-width: 600px){
+	.conteudo{
+		grid-template-columns: auto;
+	}
+}
