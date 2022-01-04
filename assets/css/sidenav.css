@@ -1,0 +1,21 @@
+/* ==================== SIDENAV */
+.sidenav{
+	background: #FAFBFC;
+	padding: 3rem;
+}
+
+.sidenav__itens{
+	display: block;
+	min-width: 60px;
+	max-width: 100px;
+	margin: 0 auto 3rem auto;
+	background: #FFFFFF;
+	padding: 3rem;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+	transition: .1s ease-out;
+}
+
+.sidenav__itens:hover{
+	background: #B07DFB;
+}
