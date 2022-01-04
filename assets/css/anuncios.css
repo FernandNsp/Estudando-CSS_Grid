@@ -1,10 +1,13 @@
+/* ==================== ANUNCIOS */
 .anuncios{
 	background: #FAFBFC;
+
 	display: grid;
-	align-content: start;
-	padding: 3rem;
+	grid-area: anuncios;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 	gap: 30px;
+	
 	justify-content: space-around;
 	align-content: start;
-	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	padding: 3rem;
 }

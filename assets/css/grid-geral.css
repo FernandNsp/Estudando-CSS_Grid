@@ -9,26 +9,6 @@
 	;
 }
 
-.cabecalho{
-	grid-area: cabecalho;
-}
-
-.sidenav{
-	grid-area: sidenav;
-}
-
-.conteudo{
-	grid-area: conteudo;
-}
-
-.anuncios{
-	grid-area: anuncios;
-}
-
-.footer{
-	grid-area: footer;
-}
-
 @media screen and (max-width: 1200px){
 	.estrutura{
 		grid-template-areas: 

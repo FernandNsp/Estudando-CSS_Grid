@@ -1,18 +1,22 @@
 /* ==================== SIDENAV */
 .sidenav{
 	background: #FAFBFC;
+	grid-area: sidenav;
 	padding: 3rem;
 }
 
 .sidenav__itens{
+	background: #FFFFFF;
+
 	display: block;
 	min-width: 60px;
 	max-width: 100px;
-	margin: 0 auto 3rem auto;
-	background: #FFFFFF;
+	
 	padding: 1.5rem;
+	margin: 0 auto 3rem auto;
 	border-radius: 5px;
 	box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+
 	transition: .1s ease-out;
 }
 
@@ -30,19 +34,22 @@
 
 @media screen and (max-width: 760px){
 	.sidenav{
-		padding: 0 3rem;
-		position: relative;
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
 		-ms-overflow-style: -ms-autohiding-scrollbar;
+
+		position: relative;
+		padding: 0 3rem;
 	}
 
 	.sidenav::after{
 		content: '→';
+		color: rgba(0, 0, 0, .3);
+
 		position: absolute;
 		top: 5px;
 		right: 30px;
-		color: rgba(0, 0, 0, .3);
+		
 		animation: seta .5s ease-in 0s infinite alternate;
 	}
 
