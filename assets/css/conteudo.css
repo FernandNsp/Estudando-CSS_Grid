@@ -64,6 +64,12 @@
 	top: 2px;
 }
 
+.conteudo__img__primeiro-subtexto{
+	font-size: 1.4rem;
+	color: #B07DFB;
+	max-width: 16em;
+}
+
 .conteudo__img__primeiro{
 	grid-row: span 2;
 	align-self: end;
@@ -71,6 +77,34 @@
 
 .conteudo__img__segundo{
 	align-self: end;
+}
+
+.citacao, .atributos{
+	align-self: start;
+	padding: 3rem;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+	background: linear-gradient(135deg, #8844EE, #B07DFB);
+}
+
+.citacao__texto{
+	font-size: 2.2rem;
+	font-style: italic;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 500px;
+	color: #FFFFFF;
+}
+
+.atributos__itens{
+	color: #FFFFFF;
+	font-family: Courier, monospace;
+	font-size: 1.8rem;
+	padding: 1.5rem;
+}
+
+.atributos__itens + .atributos__itens{
+	border-top: 2px solid #B07DFB;
 }
 
 .conteudo__coluna .conteudo__coluna-texto + .conteudo__coluna-texto{
