@@ -35,3 +35,21 @@
 	color: #FFFFFF;
 	background: rgba(0, 0, 0, .5);
 }
+
+@media screen and (max-width: 760px){
+	.cabecalho{
+		grid-template-columns: auto;
+	}
+
+	.cabecalho__logo{
+		margin-bottom: 2rem;
+	}
+
+	.cabecalho__links{
+		font-size: 1.6rem;
+	}
+
+	.cabecalho__itens + .cabecalho__itens{
+		margin-left: 1rem;
+	}
+}
