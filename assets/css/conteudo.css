@@ -1,0 +1,21 @@
+.conteudo{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 3rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 30px;
+}
+
+.col-wide{
+	grid-column: 1 / -1;
+}
+
+.conteudo__img__primeiro{
+	grid-row: span 2;
+	align-self: end;
+}
+
+.conteudo__img__segundo{
+	align-self: end;
+}
